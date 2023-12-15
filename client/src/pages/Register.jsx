@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-const  Register = () => {
+const Register = () => {
   const [formData, setFormData] = useState({
     name: '',
     dob: '',
@@ -30,14 +30,20 @@ const  Register = () => {
 
   const handleRegister = async () => {
 
+    if (!formData.name || !formData.dob || !formData.email || !formData.password) {
+      setError('All fields are required');
+      return;
+    }
+
     console.log(formData);
 
+
     try {
-      const res = await axios.post('http://localhost:8080/api/v1/user/register', formData);
+      const res = await axios.post('https://quantumserver.vercel.app/api/v1/user/register', formData);
       if (res.data.success) {
         localStorage.setItem("token", res.data.token);
         navigate("/");
-      }else{
+      } else {
         setError(res.data.message);
       }
     } catch (error) {
@@ -55,7 +61,8 @@ const  Register = () => {
             <MDBCardBody className='p-5 w-100 d-flex flex-column'>
 
               <h2 className="fw-bold mb-2 text-center">Register</h2>
-              <p className="text-white-50 mb-3">Please enter your details to create an account!</p>
+
+              <p className="my-4" />
 
               <MDBInput wrapperClass='mb-4 w-100' label='Name' id='name' type='text' size="lg" onChange={handleChange} />
               <MDBInput wrapperClass='mb-4 w-100' label='Date of Birth' id='dob' type='date' size="lg" onChange={handleChange} />
@@ -66,7 +73,7 @@ const  Register = () => {
                 Register
               </MDBBtn>
 
-              <hr className="my-4" />
+              <p className="my-4" />
 
               <p>Already have an account? <Link to="/login">Login</Link></p>
 
