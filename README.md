@@ -1,19 +1,11 @@
-# skygoal-assignment!
+# Quantum IT Assignment
 
-# User Credentials for login:
-Email: yash@gmail.com
+# Login Page
+![Screenshot (1130)](https://github.com/Yash084/Quantum-Assignment/assets/91718061/3838914a-52fa-4be7-bd19-45f43fb48e67)
 
+# Register Page
+![Screenshot (1131)](https://github.com/Yash084/Quantum-Assignment/assets/91718061/e6c3550a-a727-44ea-b12e-65cb2e47b146)
+![Screenshot (1132)](https://github.com/Yash084/Quantum-Assignment/assets/91718061/e7b71ce6-c4e1-4f20-9426-bbda73d808ee)
 
-password: 123
-
-
-
-# Register Page!
-![Screenshot (998)](https://github.com/Yash084/skygoal-assignment/assets/91718061/1ca65656-5d76-4f1d-be7f-7e7947d6d893)
-
-# Login Page!
-![Screenshot (997)](https://github.com/Yash084/skygoal-assignment/assets/91718061/c8ce5ab1-c6d6-4ad6-990d-74dd8d308a05)
-
-# Home Page!
-![Screenshot (996)](https://github.com/Yash084/skygoal-assignment/assets/91718061/eac896e9-b6cd-4207-a8cf-336644601954)
-
+# Home page displaying user data in tabular format
+![Screenshot (1133)](https://github.com/Yash084/Quantum-Assignment/assets/91718061/f07304fb-7821-4620-b218-e4c8c50b7990)
