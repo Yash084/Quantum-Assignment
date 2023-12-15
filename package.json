@@ -2,12 +2,12 @@
   "name": "quantum-assignment",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "engines": {
     "node": "18.x"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "clientinstall": "npm install --prefix client",
