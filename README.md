@@ -8,4 +8,4 @@
 ![Screenshot (1132)](https://github.com/Yash084/Quantum-Assignment/assets/91718061/e7b71ce6-c4e1-4f20-9426-bbda73d808ee)
 
 # Home page displaying user data in tabular format
-![Screenshot (1133)](https://github.com/Yash084/Quantum-Assignment/assets/91718061/f07304fb-7821-4620-b218-e4c8c50b7990)
+![Screenshot (1134)](https://github.com/Yash084/Quantum-Assignment/assets/91718061/67c40bef-57ad-4c4a-b577-972922432674)
